@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Questão_04
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int Candidato01 = 0;
+            Console.WriteLine(Candidato01 + "Esse é o total de votos do eleitor 01: ");
+            Console.ReadLine();
+            int Candidato02 = 0;
+            Console.WriteLine(Candidato02 + "Esse é o total de votos do eleitor 02: ");
+            Console.ReadLine();
+            int VotoB = 0;
+            Console.WriteLine(VotoB + "Esse é o total de votos Brancos: ");
+            Console.ReadLine();
+            int VotoN = 0;
+            Console.WriteLine(VotoN + "Esse é o total de votos Nulos: ");
+            Console.ReadLine();
+            int TOTAL = Candidato01 + Candidato02 + VotoB + VotoN;
+            Console.WriteLine("Esse é o total de eleitores: ");
+            Console.WriteLine(TOTAL);
+            Console.ReadLine();
+
+        }
+    }
+}

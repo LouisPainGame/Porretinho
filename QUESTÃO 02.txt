@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ATIVIDADE_01
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int a /*TF*/ = 0;
+            int TC = 0;
+            Console.WriteLine("Qual a temperatura em FAHRENHEIT?");
+            a = int.Parse(Console.ReadLine());
+            float Calculo = (a - 32) / 1.8f;
+            Console.WriteLine("temperatura em CELCIUS");
+            Console.WriteLine(Calculo.ToString("0.00"));
+            Console.ReadLine();
+        }
+    }
+}

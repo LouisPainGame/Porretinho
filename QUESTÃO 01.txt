@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ATIVIDADE_01
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int a /*PESO*/ = 0;
+            float b /*ALTURA*/ = 0;
+            Console.WriteLine("escreva seu PESO");
+            a = int.Parse(Console.ReadLine());
+            Console.WriteLine("escreva sua ALTURA");
+            b = float.Parse(Console.ReadLine());
+            float CALCULO = a / (b* b);
+            Console.WriteLine("seu I.M.C");
+            Console.WriteLine(CALCULO);
+            Console.ReadLine();
+            
+        }
+    }
+}

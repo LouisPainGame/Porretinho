@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ATIVIDADE__01
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            float RETANGULANGO_L = 0;
+            float RETANGULANGO_C = 0;
+            Console.WriteLine("Qual a largura do retangulo?");
+            RETANGULANGO_C = float.Parse(Console.ReadLine());
+            Console.WriteLine("Qual o comprimento do retangulo?");
+            RETANGULANGO_L = float.Parse(Console.ReadLine());
+            float CALCULO = RETANGULANGO_L * RETANGULANGO_C;
+            Console.WriteLine("Essa é área do retangulo");
+            Console.WriteLine(CALCULO);
+            Console.ReadLine();
+
+        }
+    }
+}
